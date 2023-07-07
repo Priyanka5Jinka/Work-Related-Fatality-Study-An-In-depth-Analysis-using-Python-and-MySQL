@@ -28,3 +28,4 @@ Module 1: Cleaning the dataset
 Module 2: Run SQL queries 
 
 Dataset used: fatality.csv
+After cleaning the dataset : fatalities_cleaned.csv
