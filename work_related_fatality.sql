@@ -18,12 +18,12 @@ select count(*) as Incidents_reported from fatalities;
 The task is to calculates the year-to-year percentage changes(Round it of to nearest whole number)
  in the number of fatalities for each incident year, excluding the year 2022. */
  
-SELECT YEAR(fc.incident_date) AS year, COUNT(*) AS n_fat,
-LAG(COUNT(*), 1) OVER (ORDER BY YEAR(incident_date)) AS prev,
-ROUND(((COUNT(*) - LAG(COUNT(*),1) OVER (ORDER BY YEAR(incident_date)))/LAG(COUNT(*),1) OVER (ORDER BY YEAR(incident_date))) * 100) AS y2y
-FROM fatalities fc
-WHERE YEAR(fc.incident_date) < 2022
-GROUP BY year;
+select year(incident_date) as year, count(*) as n_fat,
+lag(count(*), 1) over (order by year(incident_date)) as prev,
+round(((count(*) - lag(count(*),1) over (order by year(incident_date)))/lag(count(*),1) over (order by year(incident_date))) * 100) as y2y
+from fatalities
+where year(incident_date) < 2022
+group by year;
 
 
 -- Task 3
