@@ -28,4 +28,7 @@ Module 1: Cleaning the dataset
 Module 2: Run SQL queries 
 
 Dataset used: fatality.csv
-After cleaning the dataset : fatalities_cleaned.csv
+
+After cleaning, the dataset : fatalities_cleaned.csv
+
+Analysis done using SQL : work_related_fatality.sql
