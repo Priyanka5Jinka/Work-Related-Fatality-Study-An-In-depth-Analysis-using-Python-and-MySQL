@@ -31,4 +31,6 @@ Dataset used: fatality.csv
 
 After cleaning, the dataset : fatalities_cleaned.csv
 
-Analysis done using SQL : work_related_fatality.sql
+Analysis done using Python file : work_related_fatality.ipynb
+
+Insights drawn using SQL file : work_related_fatality.sql
