@@ -2,6 +2,8 @@
 About the project: The Work-Related Fatality Study is a comprehensive analysis of fatal incidents that occurred in various workplaces. The project aims to examine and understand the factors contributing to work-related fatalities, identify trends and patterns, and provide insights to improve workplace safety measures.
 Columns:
 
+The data consists of the incidanta that occured from the period 23/06/2009 to 02/01/2017.
+
 1. ID: This column represents a unique identifier assigned to each incident. It helps in distinguishing and referencing specific incidents in the dataset.
 
 2. Incident Date: This column records the date when the fatal incident occurred. It provides a chronological timeline for analyzing the incidents over a specific period.
