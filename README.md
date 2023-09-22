@@ -36,3 +36,15 @@ After cleaning, the dataset : fatalities_cleaned.csv
 Analysis done using Python file : work_related_fatality.ipynb
 
 Insights drawn using SQL file : work_related_fatality.sql
+
+# Insights: 
+
+- The dataset comprises a total of 14,914 reported workplace incidents.
+- Among these, 3,345 fatalities received citations, indicating safety violations.
+- The day with the highest number of fatalities, at 18.29%, was 'Tuesday.'
+- There were 79 fatalities associated with welding incidents.
+- Over the last three years, there were a total of five welding-related fatalities: two in 2021 and 2020 each, and one in 2019.
+- The top 5 states with the highest numbers of fatal incidents are Texas, California, Florida, New York, and Illinois.
+- The leading states for workplace fatalities due to stabbings are Texas, Kentucky, California, Illinois, and Washington.
+- States with the most workplace fatalities from shootings, in descending order, include Indiana, California, Texas, New York, Florida, Kentucky, Oregon, Nevada, Illinois, and Washington.
+- The analysis also includes an annual count of shooting deaths, with the highest number recorded in 2021, totaling 38.
